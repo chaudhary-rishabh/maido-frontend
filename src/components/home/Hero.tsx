@@ -53,18 +53,18 @@ export default function Hero() {
                     src={mainImage}
                     width={2100}
                     height={1200}
-                    className="w-9/12 lg:w-full mx-auto max-w-[24rem] sm:max-w-[30rem] rounded-3xl  mb-10 ring-1 ring-gray-400/10 object-contain"
+                    className="w-9/12 border-8 border-white shadow-glow-green-lg lg:w-full mx-auto max-w-[24rem] sm:max-w-[30rem] rounded-5xl  mb-10 ring-1 ring-gray-400/10 object-contain"
                 />
 
                 <div
-                    className="absolute sm:bottom-80 bg-green-300 text-white sm:left-[-100px] bottom-56 left-[-10px] right-0 sm:h-5/12 sm:w-3/6 w-2/6 h-3/12 shadow-2xl shadow-gray-700/40 hover:shadow-2xl hover:shadow-gray-900/50 rounded-[50px_50px_0px_50px] transition-shadow duration-500"
+                    className="absolute sm:bottom-80 bg-white sm:left-[-100px] bottom-56 left-[-10px] right-0 sm:h-5/12 sm:w-3/6 w-2/6 h-3/12 shadow-2xl shadow-green-400/80 hover:shadow-2xl hover:shadow-gray-900/50 rounded-[50px_50px_0px_50px] transition-shadow duration-500"
                 >
                     <div className="flex flex-col items-center gap-1 p-1 sm:gap-4 sm:p-2">
-                        <p className="text-xs lg:text-xl hidden sm:block text-white p-1 font-semibold text-center">
-                            Our Services
+                        <p className="text-xs lg:text-xl hidden sm:block text-green-400 p-1 font-semibold text-center">
+                            FAST | EASY  RELIABLE
                         </p>
-                        <p className="text-xs lg:text-md font-medium text-white p-1 text-center">
-                            FAST | EASY
+                        <p className="text-xs lg:text-md block sm:hidden font-medium text-green-400 p-1 text-center">
+                            FAST | EASY 
                         </p>
                     </div>
                 </div>
