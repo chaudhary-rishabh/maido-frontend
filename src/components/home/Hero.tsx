@@ -61,7 +61,7 @@ export default function Hero() {
                 >
                     <div className="flex flex-col items-center gap-1 p-1 sm:gap-4 sm:p-2">
                         <p className="text-xs lg:text-xl hidden sm:block text-green-400 p-1 font-semibold text-center">
-                            FAST | EASY  RELIABLE
+                            FAST | EASY | RELIABLE
                         </p>
                         <p className="text-xs lg:text-md block sm:hidden font-medium text-green-400 p-1 text-center">
                             FAST | EASY 

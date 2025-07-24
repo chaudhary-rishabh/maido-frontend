@@ -44,7 +44,7 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  font-family: var(--font-exo2), sans-serif;
 }
 
 @layer utilities {
