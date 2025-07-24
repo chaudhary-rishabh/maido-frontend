@@ -15,7 +15,15 @@ export default function Hero() {
     // }, []);
 
     return (
-        <div className="relative mx-auto mt-24 w-11/12 p-4 rounded-3xl max-w-5xl flex flex-col">
+        <div
+            className="relative mx-auto mt-24 w-full p-4 rounded-3xl flex flex-col"
+            style={{
+                backgroundImage: "url('/maidHeroBg.png')",
+                backgroundSize: "85% 90%",         
+                backgroundRepeat: "no-repeat",
+                backgroundPosition: "center",    
+            }}
+        >
             <div className="flex flex-col mb-6 items-center gap-2">
                 <p className="text-lg lg:text:xl text-gray-900 font-semibold text-center" style={{ textShadow: '0 2px 8px rgb(115, 252, 156)' }}>
                     Maido: Home chaos? We slay it.
@@ -45,27 +53,27 @@ export default function Hero() {
                     src={mainImage}
                     width={2100}
                     height={1200}
-                    className="w-9/12 lg:w-full mx-auto max-w-[24rem] sm:max-w-[30rem] rounded-3xl shadow-[12px_12px_100px_green] shadow-green-500 mb-10 ring-1 ring-gray-400/10 object-contain"
+                    className="w-9/12 lg:w-full mx-auto max-w-[24rem] sm:max-w-[30rem] rounded-3xl  mb-10 ring-1 ring-gray-400/10 object-contain"
                 />
 
                 <div
-                    className="absolute sm:bottom-80 sm:left-[-100px] bottom-56 left-[-10px] right-0 sm:h-5/12 sm:w-3/6 w-2/6 h-3/12 bg-white shadow-2xl shadow-gray-700/40 hover:shadow-2xl hover:shadow-gray-900/50 rounded-[50px_50px_0px_50px] transition-shadow duration-500"
+                    className="absolute sm:bottom-80 bg-green-300 text-white sm:left-[-100px] bottom-56 left-[-10px] right-0 sm:h-5/12 sm:w-3/6 w-2/6 h-3/12 shadow-2xl shadow-gray-700/40 hover:shadow-2xl hover:shadow-gray-900/50 rounded-[50px_50px_0px_50px] transition-shadow duration-500"
                 >
-                    <div className="flex flex-col items-center gap-1 p-2 sm:gap-4 sm:p-4">
-                        <p className="text-xs lg:text-xl text-gray-600 p-1 font-semibold text-center">
+                    <div className="flex flex-col items-center gap-1 p-1 sm:gap-4 sm:p-2">
+                        <p className="text-xs lg:text-xl hidden sm:block text-white p-1 font-semibold text-center">
                             Our Services
                         </p>
-                        <p className="text-xs lg:text-md font-medium text-gray-500 p-2 text-center">
-                            Range of services.
+                        <p className="text-xs lg:text-md font-medium text-white p-1 text-center">
+                            FAST | EASY
                         </p>
                     </div>
                 </div>
                 <div
-                    className="absolute sm:bottom-32 sm:left-96 bottom-28 left-56 right-0 h-1/12 w-2/6 bg-white shadow-2xl rounded-2xl"
+                    className="absolute sm:bottom-32 sm:left-96 bottom-28 left-56 right-0 h-1/12 w-2/6 backdrop-blur-sm bg-white/60 shadow-2xl rounded-2xl"
                 >
-                    <div className="flex flex-col items-center gap-1 p-1 px-2 sm:gap-4 sm:p-4">
+                    <div className="flex flex-col items-center gap-1 p-3 px-2 sm:gap-4 sm:p-4">
                         <p className="text-xs lg:text-lg text-green-700 font-semibold text-center">
-                            Our Services
+                            3 Easy Steps
                         </p>
                     </div>
                 </div>
