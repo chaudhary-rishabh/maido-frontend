@@ -25,10 +25,10 @@ export default function Hero() {
             }}
         >
             <div className="flex flex-col mb-6 items-center gap-2">
-                <p className="text-lg lg:text:xl text-gray-900 font-semibold text-center" style={{ textShadow: '0 2px 8px rgb(115, 252, 156)' }}>
+                <p className="text-lg lg:text-3xl text-gray-900 -mt-4 font-semibold text-center" style={{ textShadow: '0 2px 8px rgb(115, 252, 156)' }}>
                     Maido: Home chaos? We slay it.
                 </p>
-                <p className="text-sm lg:text:md font-medium text-gray-900 text-center">
+                <p className="text-sm lg:text-lg font-medium text-gray-900 text-center">
                     Cooks, maids, nannies—vibes sorted.
                 </p>
                 <Link href="/services"
