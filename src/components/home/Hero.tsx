@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { useEffect, useState } from 'react';
 
 export default function Hero() {
-    const [mainImage, setMainImage] = useState("/maidoCareTaker7.png");
+    const [mainImage, setMainImage] = useState("/MaidoHomeMaid.png");
     // const [count, setCount] = useState(0);
 
     useEffect(() => {
@@ -78,10 +78,10 @@ export default function Hero() {
                 <div className="absolute bottom-4 left-0 right-0 flex justify-center gap-2 px-2">
                     <Image
                         alt="Maido Thumbnail 1"
-                        src="/maidoCareTaker7.png"
+                        src="/MaidoHomeMaid.png"
                         width={100}
                         height={100}
-                        onClick={() => setMainImage("/maidoCareTaker7.png")}
+                        onClick={() => setMainImage("/MaidoHomeMaid.png")}
                         className="border-4 border-white cursor-pointer w-3/12 sm:w-1/5 rounded-2xl shadow-lg shadow-gray-300/60 hover:shadow-black/50 hover:shadow-xl transition-shadow duration-500 object-contain"
                     />
                     <Image
