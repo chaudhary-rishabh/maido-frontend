@@ -1,18 +1,15 @@
 'use client';
 import Image from 'next/image';
 import Link from 'next/link';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 export default function Hero() {
     const [mainImage, setMainImage] = useState("/maidoCareTaker7.png");
     // const [count, setCount] = useState(0);
 
-    // useEffect(() => {
-    //     const timer = setTimeout(() => {
-    //         setMainImage("/MaidoHomeMaid.png");
-    //     }, 5000);
-    //     return () => clearTimeout(timer);
-    // }, []);
+    useEffect(() => {
+        setMainImage("/MaidoHomeMaid.png");
+    }, []);
 
     return (
         <div
